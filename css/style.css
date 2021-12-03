@@ -1,0 +1,247 @@
+body
+{
+    background: linear-gradient(to top left, #003399 0%, #ff3399 72%);
+    background-repeat: no-repeat;
+    font-family: 'monospace' ,sans-serif;
+  
+   
+
+}
+
+.container{
+    padding:160px;
+    font-family: 'monospace' ,sans-serif;
+    position:relative;
+}
+
+
+
+.plane-logo{
+    background-color:#fff;
+    position:absolute;
+    left: 595px;
+    bottom: 500px;
+    border: 1px grey solid;
+    height: 30px;
+    font-size: 25px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 20px 10px 5px 10px;
+    font-weight: bold;
+    width: 8%;
+    height: 126px;
+}
+
+
+
+
+.book-area{
+    background:#fff;
+    border-radius: 10px;
+    padding: 70px;
+
+}
+
+.type-of-trip{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.trip-round{
+display: flex;
+
+}
+
+.oneway{
+    padding: 7px 11px 2px 10px;
+    background-color:rgb(202, 202, 202);
+    border-radius: 33px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.oneway p{
+    margin-bottom: 0px;
+    padding-left: 5px;
+}
+
+
+.oneway i{
+    padding-top: 5px;
+}
+
+
+
+.round{
+    padding: 7px 11px 2px 50px;
+ color: rgb(197, 197, 197);
+    border-radius: 33px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.round p{
+    margin-bottom: 0px;
+    padding-left: 5px;
+}
+
+
+.round i{
+    padding-top: 5px;
+}
+
+
+
+.inter-domes{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.from-to-end{
+    border: 3px solid #e7e7e7e7;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+
+    
+
+
+}
+
+.depa{
+    border-right: 3px solid #e7e7e7e7;
+    padding-right: 386px;   
+}
+
+
+.arri{
+    padding-left: 60px;;
+}
+
+.from-to{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.source-dest{
+    font-size:50px;
+    font-weight: bold;
+}
+
+.airport-code{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.search{
+    position: absolute;
+    left: 580px;
+    bottom: 135px;
+}
+.button{
+    background: linear-gradient(to bottom, #66ccff 0%, #cc00ff 100%);
+    font-size:25px;
+    border:0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;;
+
+}
+
+
+.arrow{
+position: absolute;
+bottom:80px;
+left: 45px;
+
+
+}
+
+
+
+@media only screen and (max-width:700px){
+.plane-logo{
+    position: absolute;
+    left: 155px;
+    bottom: 590px;
+    height: 109px;
+    width:22%;  
+    font-size: 20px;
+    padding: 16px 8px 21px 8px;
+}
+
+.arrow{
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 23px;
+    left: -294px;
+}
+
+
+.book-area{
+    padding: 43px;
+}
+    
+.type-of-trip{
+    display: block;
+}
+
+.trip-round{
+    padding-left: 32px;
+}
+.oneway{
+    padding: 7px 11px 6px 10px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.round{
+    padding: 7px 11px 2px 50px;
+    margin-bottom: 21px;
+    font-size: 13px;
+}
+.inter-domes{
+    font-size: 13px;
+    text-align: center;
+}
+
+.from-to-end{
+    display: block;
+}
+.depa{
+    border-bottom: 3px solid #e7e7e7e7;
+    padding-bottom: 22px;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.from-to{
+    font-size: 13px;
+}
+.source-dest{
+    font-size: 32px;
+}
+
+.airport-code{
+    font-size:10px;
+}
+
+.arri{
+    padding-top:22px;
+    padding-left: 0;
+}
+
+.search{
+    position: absolute;
+    left: 115px;
+    bottom: 135px;
+}
+
+
+}
