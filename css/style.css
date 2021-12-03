@@ -165,11 +165,11 @@ left: 45px;
 
 
 
-@media only screen and (max-width:700px){
+@media (max-width:700px){
 .plane-logo{
     position: absolute;
-    left: 155px;
-    bottom: 605px;
+    left: 215px;
+    bottom: 585px;
     height: 109px;
     width:94px;
     font-size: 20px;
@@ -179,8 +179,8 @@ left: 45px;
 .arrow{
     transform: rotate(90deg);
     position: absolute;
-    bottom: 23px;
-    left: -294px;
+    bottom: 14px;
+    left: -170px;
 }
 
 
@@ -197,17 +197,17 @@ left: 45px;
 }
 .oneway{
     padding: 7px 11px 6px 10px;
-    margin-bottom: 30px;
-    font-size: 13px;
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 
 .round{
-    padding: 7px 11px 2px 50px;
-    margin-bottom: 21px;
-    font-size: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 120px;
 }
 .inter-domes{
-    font-size: 13px;
+    font-size: 19px;
     text-align: center;
 }
 
@@ -239,9 +239,91 @@ left: 45px;
 
 .search{
     position: absolute;
-    left: 115px;
-    bottom: 135px;
+    left: 185px;
+    bottom: 140px;
 }
 
 
 }
+@media (max-width:450px){
+    .plane-logo{
+        position: absolute;
+        left: 168px;
+        bottom: 605px;
+        height: 109px;
+        width:94px;
+        font-size: 20px;
+        padding: 16px 8px 21px 8px;
+    }
+    
+    .arrow{
+        transform: rotate(90deg);
+        position: absolute;
+        bottom: 14px;
+        left: -280px;
+    }
+    
+    
+    .book-area{
+        padding: 43px;
+    }
+    
+    .type-of-trip{
+        display: block;
+    }
+    
+    .trip-round{
+        padding-left: 32px;
+    }
+    .oneway{
+        padding: 7px 11px 6px 10px;
+    margin-bottom: 43px;
+    font-size: 14px;
+}
+    
+    
+    .round{
+        margin-bottom: 20px;
+        font-size: 14px;
+        padding-left: 45px;
+    }
+    .inter-domes{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .from-to-end{
+        display: block;
+    }
+    .depa{
+        border-bottom: 3px solid #e7e7e7e7;
+        padding-bottom: 22px;
+        padding-right: 0;
+        border-right: 0;
+    }
+    
+    .from-to{
+        font-size: 13px;
+    }
+    .source-dest{
+        font-size: 32px;
+    }
+    
+    .airport-code{
+        font-size:10px;
+    }
+    
+    .arri{
+        padding-top:22px;
+        padding-left: 0;
+    }
+    
+    .search{
+        position: absolute;
+        left: 138px;
+        bottom: 140px;
+    }
+    
+    
+    }
+    
