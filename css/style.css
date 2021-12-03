@@ -3,8 +3,8 @@ body
     background: linear-gradient(to top left, #003399 0%, #ff3399 72%);
     background-repeat: no-repeat;
     font-family: 'monospace' ,sans-serif;
-  
-   
+
+
 
 }
 
@@ -109,14 +109,14 @@ display: flex;
     border-radius: 15px;
     display: flex;
 
-    
+
 
 
 }
 
 .depa{
     border-right: 3px solid #e7e7e7e7;
-    padding-right: 386px;   
+    padding-right: 386px;
 }
 
 
@@ -169,9 +169,9 @@ left: 45px;
 .plane-logo{
     position: absolute;
     left: 155px;
-    bottom: 590px;
+    bottom: 605px;
     height: 109px;
-    width:92px;  
+    width:94px;
     font-size: 20px;
     padding: 16px 8px 21px 8px;
 }
@@ -187,7 +187,7 @@ left: 45px;
 .book-area{
     padding: 43px;
 }
-    
+
 .type-of-trip{
     display: block;
 }
